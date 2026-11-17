@@ -3,7 +3,7 @@
 # The original 2008 Maple worksheet is not part of this repository.
 #
 # Note: equation (4-20) is printed with exponent 0.6 (Lahav et al. 1991), but the values
-# reported in the thesis (e.g. f = 0.5142 at Omega_m = 0.3, Omega_Lambda = 0.7) correspond to
+# reported in the thesis (e.g. f ~ 0.514 at Omega_m = 0.3, Omega_Lambda = 0.7) correspond to
 # exponent 4/7. Both are defined below.
 
 restart:

@@ -89,16 +89,16 @@ Expansion history alone measures how the universe grows in size. **The growth of
 
 ## Thesis Structure
 
-| Chapter | Title | Pages | Main content |
+| Chapter | Title | Starts on thesis page | Main content |
 |---|---|---|---|
-| — | Introduction | 1–4 | Motivation and outline |
-| 1 | **Standard Cosmology** | 5–40 | Redshift and Hubble's law · horizons · distance, luminosity and magnitude · cosmological principle · FRW universe · Hubble and deceleration parameters · cosmological parameters · dust solutions · age of the universe · distance–redshift relation · angular-diameter and luminosity distance |
-| 2 | **The Cosmological Constant** | 43–66 | History of Λ · Einstein's field equations · introducing Λ · experimental evidence for non-zero Λ (accelerating universe, age of the universe) · interpretations of Λ |
-| 3 | **Dark Energy** | 68–98 | Observational evidence (CMB anisotropies, matter clustering, age, SN Ia luminosity–distance) · explanations: vacuum energy, quintessence, scalar-field dynamics, problems and fluctuations of quintessence · dark matter (baryonic and non-baryonic) · discussion and conclusions |
-| 4 | **The Linear Growth Factor** | 100–113 | Redshift-space distortions · true density field · linear redshift-distortion theory · linear continuity equation · plots of growth rate and growth factor (Maple) |
-| — | References | 115–117 | 26 references |
+| — | Introduction | 1 | Motivation and outline |
+| 1 | **Standard Cosmology** | 5 | Redshift and Hubble's law · horizons · distance, luminosity and magnitude · cosmological principle · FRW universe · Hubble and deceleration parameters · cosmological parameters · dust solutions · age of the universe · distance–redshift relation · angular-diameter and luminosity distance |
+| 2 | **The Cosmological Constant** | 43 | History of Λ · Einstein's field equations · introducing Λ · experimental evidence for non-zero Λ (accelerating universe, age of the universe) · interpretations of Λ |
+| 3 | **Dark Energy** | 68 | Observational evidence (CMB anisotropies, matter clustering, age, SN Ia luminosity–distance) · explanations: vacuum energy, quintessence, scalar-field dynamics, problems and fluctuations of quintessence · dark matter (baryonic and non-baryonic) · discussion and conclusions |
+| 4 | **The Linear Growth Factor** | 100 | Redshift-space distortions · true density field · linear redshift-distortion theory · linear continuity equation · plots of growth rate and growth factor (Maple) |
+| — | References | 115 | 26 references |
 
-The thesis contains 13 figures, including the expansion diagram of the universe, the $\Omega_M$–$\Omega_\Lambda$ phase diagram, SN Ia Hubble diagrams, lines of constant $H_0 t_0$, and the seven growth plots of Chapter 4.
+The thesis contains 14 figures, including the expansion diagram of the universe, the $\Omega_M$–$\Omega_\Lambda$ phase diagram, SN Ia Hubble diagrams, lines of constant $H_0 t_0$, and the seven growth plots of Chapter 4.
 
 ---
 
@@ -225,7 +225,7 @@ and the linear continuity equation becomes $\frac{H a f}{H_0 a_0}\,\delta_M + \n
 | Growth rate | $f(\Omega_M,\Omega_\Lambda) \approx \Omega_M^{\gamma} + \frac{\Omega_\Lambda}{70}\left(1 + \frac{\Omega_M}{2}\right)$ | Lahav et al. (1991), thesis eq. 4-20 |
 | Growth factor | $g(\Omega_M,\Omega_\Lambda) \approx \dfrac{5\,\Omega_M}{2\left[\Omega_M^{4/7} - \Omega_\Lambda + \left(1 + \frac{\Omega_M}{2}\right)\left(1 + \frac{\Omega_\Lambda}{70}\right)\right]}$ | Carroll, Press & Turner (1992), thesis eq. 4-21 |
 
-Eq. 4-20 is printed with $\gamma = 0.6$. The values computed in the thesis (e.g. $f = 0.5142$ at $\Omega_M = 0.3$, $\Omega_\Lambda = 0.7$) correspond to $\gamma = 4/7$, the same exponent that appears in $g$. The verification below evaluates both.
+Eq. 4-20 is printed with $\gamma = 0.6$. The values computed in the thesis (e.g. $f \approx 0.514$ at $\Omega_M = 0.3$, $\Omega_\Lambda = 0.7$) correspond to $\gamma = 4/7$, the same exponent that appears in $g$. The verification below evaluates both.
 
 | Maple setting | Value |
 |---|---|
@@ -274,7 +274,7 @@ Left to right: $f$ vs $\Omega_M$ at $\Omega_\Lambda = 0.7$ · $f$ vs $\Omega_\La
 | 0.1 | 0.7 | 0.279 | 0.398 |
 | 0.2 | 0.7 | 0.410 | 0.618 |
 | 0.3 | 0.7 | 0.514 | 0.778 |
-| 0.3 | 0.85 | 0.517 | 0.919 |
+| 0.3 | 0.85 | 0.517 | 0.918 |
 | 0.3 | 1.0 | 0.519 | 1.121 |
 
 ### Sensitivity
@@ -282,9 +282,9 @@ Left to right: $f$ vs $\Omega_M$ at $\Omega_\Lambda = 0.7$ · $f$ vs $\Omega_\La
 | Variation | Change in $f$ | Change in $g$ |
 |---|---|---|
 | $\Omega_M$: 0.1 → 0.3 (at $\Omega_\Lambda = 0.7$) | 0.279 → 0.514 (+84 %) | 0.398 → 0.778 (+96 %) |
-| $\Omega_\Lambda$: 0.7 → 1.0 (at $\Omega_M = 0.3$) | 0.514 → 0.519 (+0.9 %) | 0.778 → 1.121 (+44 %) |
+| $\Omega_\Lambda$: 0.7 → 1.0 (at $\Omega_M = 0.3$) | 0.514 → 0.519 (+1.0 %) | 0.778 → 1.121 (+44 %) |
 
-The thesis describes $f$ vs $\Omega_\Lambda$ as a straight line with intercept 0.5142, and $g$ vs $\Omega_\Lambda$ as visibly non-linear.
+The thesis describes $f$ vs $\Omega_\Lambda$ as a straight line starting from 0.5142, and $g$ vs $\Omega_\Lambda$ as visibly non-linear. (0.5142 is the value at the left edge of the plot, $\Omega_\Lambda = 0.7$. The line's intercept at $\Omega_\Lambda = 0$ would be 0.503.)
 
 ---
 
@@ -299,10 +299,10 @@ All numbers below are in [`results/verification.json`](results/verification.json
 | 0.1 | 0.7 | 0.279 | 0.262 | **0.265** | 0.398 | **0.406** | 1.142 |
 | 0.2 | 0.7 | 0.410 | 0.392 | **0.404** | 0.618 | **0.622** | 1.034 |
 | 0.3 | 0.7 | 0.514 | 0.497 | **0.513** | 0.778 | **0.779** | 0.964 |
-| 0.3 | 0.85 | 0.517 | 0.500 | **0.518** | 0.919 | **0.917** | 1.015 |
+| 0.3 | 0.85 | 0.517 | 0.500 | **0.518** | 0.918 | **0.917** | 1.015 |
 | 0.3 | 1.0 | 0.519 | 0.502 | **0.524** | 1.121 | **1.113** | 1.077 |
 
-The Python implementation of the thesis formulas reproduces every Maple value to the third decimal.
+The Python implementation of eqs. 4-20 (with γ = 4/7) and 4-21 reproduces the thesis values to the third decimal. The only difference is in the fourth decimal: 0.5141 here vs the 0.5142 quoted in the thesis.
 
 ### 2. Thesis approximations vs. exact growth
 
@@ -389,7 +389,7 @@ The thesis motivates Chapter 4 through redshift-space distortions, where $\beta 
 
 ### Modern context
 
-The thesis's conclusion that Λ is the simplest consistent description of dark energy matched the consensus of the time and remained the standard model for over a decade. Planck 2018 measured $\Omega_M = 0.315 \pm 0.007$ in flat ΛCDM, close to the fiducial model used here. The question is open again: DESI DR2 baryon acoustic oscillations combined with the CMB prefer a dynamical dark-energy model over ΛCDM at 3.1σ, rising to 2.8–4.2σ when supernovae are added, depending on the sample (DESI Collaboration, 2025). Growth-of-structure measurements of the kind discussed in Chapter 4 are one of the main independent tests of that result.
+The thesis's conclusion that Λ is the simplest consistent description of dark energy matched the consensus of the time and remained the standard model for over a decade. Planck 2018 measured $\Omega_M = 0.315 \pm 0.007$ in flat ΛCDM, close to the fiducial model used here. The question is open again: DESI DR2 baryon acoustic oscillations combined with the CMB prefer a dynamical dark-energy model over ΛCDM at 3.1σ, and at 2.8–4.2σ when supernovae are added, depending on the sample (DESI Collaboration, 2025). Growth-of-structure measurements of the kind discussed in Chapter 4 are one of the main independent tests of that result.
 
 ### Limitations
 
@@ -479,7 +479,7 @@ All rights to the thesis belong to Bu-Ali Sina University. Any use of its conten
 11. Planck Collaboration (2020). *Planck 2018 results. VI. Cosmological parameters.* A&A, 641, A6.
 12. Riess, A. G. et al. (1998). *Observational evidence from supernovae for an accelerating universe and a cosmological constant.* AJ, 116, 1009.
 
-The thesis itself cites 26 references (pages 115–117 of the PDF).
+The thesis itself cites 26 references (thesis pages 115–117).
 
 ---
 
