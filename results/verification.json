@@ -1,0 +1,106 @@
+{
+  "table": [
+    {
+      "Om": 0.1,
+      "OL": 0.7,
+      "f_thesis": 0.2788,
+      "f_lahav06": 0.2617,
+      "f_exact": 0.2654,
+      "g_thesis": 0.3976,
+      "g_exact": 0.4062,
+      "H0t0": 1.1424
+    },
+    {
+      "Om": 0.2,
+      "OL": 0.7,
+      "f_thesis": 0.4096,
+      "f_lahav06": 0.3917,
+      "f_exact": 0.4037,
+      "g_thesis": 0.6176,
+      "g_exact": 0.6221,
+      "H0t0": 1.0341
+    },
+    {
+      "Om": 0.3,
+      "OL": 0.7,
+      "f_thesis": 0.5141,
+      "f_lahav06": 0.4971,
+      "f_exact": 0.5128,
+      "g_thesis": 0.7779,
+      "g_exact": 0.779,
+      "H0t0": 0.9641
+    },
+    {
+      "Om": 0.3,
+      "OL": 0.85,
+      "f_thesis": 0.5166,
+      "f_lahav06": 0.4996,
+      "f_exact": 0.5182,
+      "g_thesis": 0.9185,
+      "g_exact": 0.9167,
+      "H0t0": 1.0146
+    },
+    {
+      "Om": 0.3,
+      "OL": 1.0,
+      "f_thesis": 0.519,
+      "f_lahav06": 0.502,
+      "f_exact": 0.524,
+      "g_thesis": 1.121,
+      "g_exact": 1.1127,
+      "H0t0": 1.0766
+    }
+  ],
+  "error_pct": {
+    "f_thesis": {
+      "min": -0.96,
+      "max": 23.76,
+      "rms": 5.54
+    },
+    "f_lahav06": {
+      "min": -4.58,
+      "max": 11.8,
+      "rms": 3.55
+    },
+    "g_thesis": {
+      "min": -11.94,
+      "max": 0.75,
+      "rms": 2.52
+    }
+  },
+  "error_pct_Om_ge_0.2": {
+    "f_thesis": {
+      "max_abs": 1.38
+    },
+    "f_lahav06": {
+      "max_abs": 4.55
+    },
+    "g_thesis": {
+      "max_abs": 0.75
+    }
+  },
+  "sensitivity_pct": {
+    "OL_0.7_to_1.0_at_Om_0.3": {
+      "f_thesis": 1.0,
+      "f_exact": 2.2,
+      "g_thesis": 44.1,
+      "g_exact": 42.8
+    },
+    "Om_0.1_to_0.3_at_OL_0.7": {
+      "f_thesis": 84.4,
+      "f_exact": 93.2,
+      "g_thesis": 95.7,
+      "g_exact": 91.8
+    }
+  },
+  "fiducial": {
+    "Om": 0.3,
+    "OL": 0.7,
+    "H0t0": 0.9641,
+    "t0_Gyr_for_H0_70": 13.47,
+    "gamma_eff_z0": 0.5547,
+    "gamma_eff_z1": 0.5473,
+    "gamma_eff_z5": 0.5455,
+    "D0_over_a0": 0.779
+  }
+}
